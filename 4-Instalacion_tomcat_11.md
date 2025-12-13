@@ -156,6 +156,8 @@ Tras completar estos pasos:
   - `systemctl stop tomcat`
   - `systemctl enable tomcat`
 
-
-
 ```
+
+comprobacion desde URL http://192.168.1.135:8080
+
+![Se comprueba que esta corriendo](/images/inicio-tomcat.png)

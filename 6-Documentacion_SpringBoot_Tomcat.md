@@ -1,4 +1,5 @@
 # Despliegue de una Aplicación Spring Boot (WAR) en Tomcat
+
 **Sistema:** AlmaLinux  
 **Java:** Temurin JDK 21  
 **IDE:** Visual Studio Code  
@@ -77,15 +78,15 @@ Spring Initializr: Create a Maven Project
 
 Parámetros elegidos:
 
-| Parámetro          | Valor               |
-|-------------------|---------------------|
-| Lenguaje          | Java                |
-| Versión Boot      | 3.5.8               |
-| Artifact Id       | holaapp             |
-| Group Id          | com.demo            |
-| Packaging         | WAR                 |
-| Java Version      | 21                  |
-| Dependencias      | Spring Web          |
+| Parámetro    | Valor      |
+| ------------ | ---------- |
+| Lenguaje     | Java       |
+| Versión Boot | 3.5.8      |
+| Artifact Id  | holaapp    |
+| Group Id     | com.demo   |
+| Packaging    | WAR        |
+| Java Version | 21         |
+| Dependencias | Spring Web |
 
 ---
 
@@ -232,17 +233,19 @@ Salida esperada:
 ¡Hola, desde Spring Boot en tomcat!
 ```
 
----
+![Probamos desde windows](/images/holaapp-win.png)
+
+![Probamos desde Linux](/images/hola-linux.png)
 
 ## ✔️ Resultado final
 
 Tu entorno ya está completamente operativo:
 
-- VS Code configurado con JDK 21  
-- Maven funcionando  
-- Spring Boot funcionando en modo WAR  
-- Despliegue exitoso en Tomcat  
-- Endpoint `/hola` accesible  
+-   VS Code configurado con JDK 21
+-   Maven funcionando
+-   Spring Boot funcionando en modo WAR
+-   Despliegue exitoso en Tomcat
+-   Endpoint `/hola` accesible
 
 ---
 
