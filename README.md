@@ -6,33 +6,13 @@ Este laboratorio documenta paso a paso la instalación profesional de un entorno
 
 ## 🔧 Contenido del laboratorio
 
-### 1️⃣ Preparación inicial de AlmaLinux
-
-📄 **[1-Instalacion-y-configuracion-almalinux.md](1-Instalacion-y-configuracion-almalinux.md)**
-
-### 2️⃣ Instalación de Java 21
-
-📄 **[2-Instalacion_jdk_21_laboratorio.md](2-Instalacion_jdk_21_laboratorio.md)**
-
-### 3️⃣ Creación del usuario `tomcat` y estructura
-
-📄 **[3-laboratorio_tomcat_usuario_estructura.md](3-laboratorio_tomcat_usuario_estructura.md)**
-
-### 4️⃣ Instalación de Apache Tomcat 11
-
-📄 **[4-Instalacion_tomcat_11.md](4-Instalacion_tomcat_11.md)**
-
-### 5️⃣ Habilitación de Manager y Host-Manager
-
-📄 **[5-Tomcat_manager_hostmanager.md](5-Tomcat_manager_hostmanager.md)**
-
-### 6️⃣ Despliegue de una aplicación Spring Boot en Tomcat
-
-📄 **[6-Documentacion_SpringBoot_Tomcat.md](6-Documentacion_SpringBoot_Tomcat.md)**
-
-### 7️⃣ Compartición de archivos Linux ↔ Windows
-
-📄 **[7-Unidades_compartidas_linux_windows.md](7-Unidades_compartidas_linux_windows.md)**
+-   📘 [Preparación inicial de AlmaLinux](1-Instalacion-y-configuracion-almalinux.md)
+-   ☕ [Instalación de Java 21](2-Instalacion_jdk_21_laboratorio.md)
+-   👤 [Creación del usuario `tomcat` y estructura](3-laboratorio_tomcat_usuario_estructura.md)
+-   🚀 [Instalación de Apache Tomcat 11](4-Instalacion_tomcat_11.md)
+-   🛠️ [Habilitación de Manager y Host-Manager](5-Tomcat_manager_hostmanager.md)
+-   🌱 [Despliegue de aplicación Spring Boot en Tomcat](6-Documentacion_SpringBoot_Tomcat.md)
+-   🔗 [Compartición de archivos Linux ↔ Windows](7-Unidades_compartidas_linux_windows.md)
 
 ---
 
