@@ -23,7 +23,7 @@ Client → Apache Tomcat (Java Application Server) → Web Application (WAR)
 
 -   📘 [Preparación inicial de AlmaLinux](1-Instalacion-y-configuracion-almalinux.md)
 -   ☕ [Instalación de Java 21](2-Instalacion_jdk_21_laboratorio.md)
--   👤 [Creación del usuario tomcat y estructura](3-Laboratorio_tomcat_usuario_estructura.md)
+-   👤 [Creación del usuario tomcat y estructura](3-usuario-servicio-tomcat-y-estructura-directorios.md)
 -   🚀 [Instalación de Apache Tomcat 11](4-Instalacion_tomcat_11.md)
 -   🛠️ [Habilitación de Manager y Host-Manager](5-Tomcat_manager_hostmanager.md)
 -   🌱 [Despliegue de aplicación Spring Boot en Tomcat](6-Documentacion_SpringBoot_Tomcat.md)
