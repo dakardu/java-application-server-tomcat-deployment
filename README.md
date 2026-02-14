@@ -5,6 +5,11 @@ This project demonstrates the installation, configuration and deployment of a Ja
 It simulates a real-world application server environment with proper service configuration, deployment structure and basic security practices.
 
 
+## 🏗️ Application Flow
+
+Client → Apache Tomcat (Java Application Server) → Web Application (WAR)
+
+
 ## 🎯 What this project demonstrates
 
 - Installation and configuration of Apache Tomcat on Linux
@@ -23,11 +28,6 @@ It simulates a real-world application server environment with proper service con
 -   🛠️ [Habilitación de Manager y Host-Manager](5-Tomcat_manager_hostmanager.md)
 -   🌱 [Despliegue de aplicación Spring Boot en Tomcat](6-Documentacion_SpringBoot_Tomcat.md)
 -   🔗 [Compartición de archivos Linux ↔ Windows](7-Unidades_compartidas_linux_windows.md)
-
-
-## 🏗️ Application Flow
-
-Client → Apache Tomcat (Java Application Server) → Web Application (WAR)
 
 
 ## ⚙️ Installation Overview
@@ -59,11 +59,33 @@ Tomcat automatically extracts and deploys the application.
 - Controlled permissions on Tomcat directories
 - Firewall rules applied to expose only required ports
 
+
 ## 🧪 Validation & Testing
 
 - Accessed application via browser: http://<server-ip>:8080
 - Verified Tomcat service status
 - Checked application logs inside /logs directory
+
+
+## 📄 Logs and Troubleshooting
+
+Tomcat logs are located in:
+
+/opt/tomcat/logs/
+
+Useful files:
+
+- catalina.out
+- localhost.log
+
+
+## ⚙️ Tomcat as a Service
+
+Tomcat is configured as a systemd service:
+
+systemctl start tomcat
+systemctl enable tomcat
+systemctl status tomcat
 
 
 ## ☁️ Cloud Equivalent (Azure)
