@@ -1,4 +1,4 @@
-# Laboratorio Tomcat – Creación de Usuario de Servicio y Estructura de Directorios
+# Creación de Usuario de Servicio y Estructura de Directorios
 
 Este documento describe el **Punto 2** del laboratorio: la creación de un usuario dedicado para Tomcat y la estructura estándar de directorios para su despliegue profesional.
 
