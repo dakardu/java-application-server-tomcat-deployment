@@ -304,5 +304,3 @@ Ahora Windows ya puede acceder correctamente al Manager y Host-Manager.
 ✔ Firewall correctamente ajustado
 
 ---
-
-Fin del documento.
